@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Konfigurasi Halaman Website
-st.set_page_config(page_title="Warung Nusantara & Paket Hemat", page_icon="🍽️", layout="wide")
+st.set_page_config(page_title="Warung Nusantara & Paket Hemat" layout="wide")
 
 # Inisialisasi keranjang belanja di session_state
 if "keranjang" not in st.session_state:
